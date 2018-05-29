@@ -1,0 +1,80 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background: url("windowsbackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.start-bar {
+    background: url("windows-bar.jpg");
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 30px;
+}
+
+#start-button {
+    position: absolute;
+    background: url("windows1.png") no-repeat;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border: none;
+    bottom: 0;
+    left: 0;
+}
+
+#start-button:hover {
+    background: url("windows2.png") no-repeat;
+    cursor: pointer;
+}
+
+#start-button:active {
+    background: url("windows3.png") no-repeat;
+} 
+
+#start-bar-time {
+    position: absolute;
+    background: url("windows-time.png") no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 30px; 
+}
+
+#clockbox {
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 12px;
+}
+
+#clockbox:hover {
+    cursor: default;
+}
+
+#start-menu {
+    position: absolute;
+    bottom: 30px;
+    display: none;
+}
+
+#target {
+    background-color: transparent;
+    position: absolute;
+    overflow: hidden;
+    padding: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+
